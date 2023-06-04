@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Themen</title>
+  </head>
+  <body>
+    <div class="hamburger">
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+    </div>
+    <nav class="sidebar-nav">
+      <ul>
+        <li><a href="/index.html">Startseite</a></li>
+        <li><a href="/page1.html">HTML</a></li>
+        <li><a href="/page2.html">CSS</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>HTML Themen</h1>
+      <section id="tables-section">
+        <h2>HTML Tabellen</h2>
+        <p>
+          HTML Tabellen erlauben das Web-Designern und -Entwicklern, Daten in
+          tabellenähnlichen Strukturen zu präsentieren.
+        </p>
+        <p>Beispiel einer HTML Tabelle:</p>
+        <div id="code-editor-table"></div>
+        <button id="tableButton">Füge eine Zeile hinzu</button>
+        <p>
+          Mehr über HTML Tabellen auf
+          <a
+            href="https://developer.mozilla.org/de/docs/Web/HTML/Element/table"
+            target="_blank"
+            >MDN</a
+          >.
+        </p>
+      </section>
+      <section id="semantic-section">
+        <h2>HTML Semantische Tags</h2>
+        <p>
+          Semantische HTML-Tags geben Informationen über den Inhalt, den sie
+          umschließen. Sie erzählen dem Browser, der die Seite anzeigt, etwas
+          über die Art des Inhalts.
+        </p>
+        <p>Einige Beispiele für semantische Tags sind:</p>
+        <ul id="tabellesemantic">
+          <li>&lt;header&gt;</li>
+          <li>&lt;nav&gt;</li>
+          <li>&lt;main&gt;</li>
+          <li>&lt;article&gt;</li>
+          <li>&lt;section&gt;</li>
+          <li>&lt;aside&gt;</li>
+          <li>&lt;footer&gt;</li>
+        </ul>
+        <p>
+          Mehr über HTML Semantische Tags auf
+          <a
+            href="https://developer.mozilla.org/de/docs/Glossary/Semantics"
+            target="_blank"
+            >MDN</a
+          >.
+        </p>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/htmlmixed/htmlmixed.min.js"></script>
+    <script src="page1script.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

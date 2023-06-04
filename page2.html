@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meine Webseite</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hamburger">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+      </div>
+      <nav class="sidebar-nav">
+        <ul>
+          <li><a href="/index.html">Startseite</a></li>
+          <li><a href="/page1.html">HTML</a></li>
+          <li><a href="/page2.html">CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Willkommen auf meiner Webseite</h1>
+          <p>Hier finden Sie alle Informationen, die Sie benötigen.</p>
+          <a href="#" class="btn">Mehr erfahren</a>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="feature">
+          <h2>CSS Selektoren</h2>
+          <p>
+            CSS-Selektoren werden verwendet, um HTML-Elemente auszuwählen und
+            ihnen Stile zuzuweisen.
+          </p>
+          <pre>
+                    <code>
+                        /* Beispiel für CSS-Selektoren */
+                        p {
+                            color: red;
+                            font-size: 16px;
+                        }
+
+                        .container {
+                            background-color: #f0f0f0;
+                            padding: 10px;
+                        }
+                    </code>
+                </pre>
+        </div>
+        <div class="feature">
+          <h2>CSS Box-Modell</h2>
+          <p>
+            Das CSS-Box-Modell beschreibt, wie HTML-Elemente in Boxen
+            umgewandelt werden und wie diese Boxen gestaltet werden können.
+          </p>
+          <pre>
+                    <code>
+                        /* Beispiel für das CSS-Box-Modell */
+                        .box {
+                            width: 200px;
+                            height: 200px;
+                            padding: 20px;
+                            border: 2px solid black;
+                            margin: 10px;
+                            background-color: #f0f0f0;
+                        }
+                    </code>
+                </pre>
+        </div>
+        <div class="feature">
+          <h2>CSS Flexbox</h2>
+          <p>
+            Flexbox ist ein leistungsstarkes CSS-Layout-Modul, mit dem flexible
+            und reaktionsfähige Layouts erstellt werden können.
+          </p>
+          <pre>
+                    <code>
+                        /* Beispiel für Flexbox */
+                        .container {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+
+                        .item {
+                            flex: 1;
+                            margin: 10px;
+                            padding: 20px;
+                            background-color: #f0f0f0;
+                        }
+                    </code>
+                </pre>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
